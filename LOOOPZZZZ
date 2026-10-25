@@ -1,0 +1,34 @@
+name = "Ishaq"
+for counter in name:
+    print(counter)
+
+for i in range(5):
+    print(i)
+
+for i in range (10):
+    print("ishaq")
+
+for i in range (1,101):
+    print(i)
+
+n = int(input("Enter The number whose sum you want to find: "))
+sum = 0 
+
+for i in range(1, n+1):
+    sum = sum+i
+    print("\nSum", sum)
+
+string = input("Enter Your own String ")
+string2 = ('')
+
+for i in string :
+    string2 = i + string2
+
+print("\n The Original String :", string)
+print("\n The reversed string :", string2)
+
+
+n1 = 10
+
+for j in range(n1,0,-1):
+    print(j)
